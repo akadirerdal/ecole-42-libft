@@ -45,6 +45,7 @@ void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
 void	*ft_calloc(size_t count, size_t size);
 t_list	*ft_lstnew(void *content);
+void	ft_lstdelone(t_list *lst, void (*del)(void *));
 
 typedef struct s_list
 {
