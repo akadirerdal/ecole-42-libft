@@ -6,7 +6,7 @@
 /*   By: aberdal <aberdal@student.42kocaeli.com.tr>  #+#  +:+       +#+       */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026-01-13 05:31:20 by aberdal           #+#    #+#             */
-/*   Updated: 2026-01-13 05:31:20 by aberdal          ###   ########.fr       */
+/*   Updated: 2026/01/26 14:47:33 by aberdal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,4 +39,10 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		}
 	}
 	return (dest);
+}
+int main ()
+{
+	char dest[] = "lolokofil";
+	char *s = ft_memmove(dest,dest+2,6);
+	printf("%s\n",s);
 }
