@@ -15,12 +15,11 @@
 t_list	*ft_lstnew(void *content)
 {
 	t_list	*node;
-	t_list	*loloko;
 
 	node = malloc(sizeof(t_list));
 	if (!node)
 		return (NULL);
 	node->content = content;
-	node->next = loloko;
+	node->next = NULL;
 	return (node);
 }

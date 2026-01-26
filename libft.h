@@ -17,11 +17,13 @@
 # include <string.h>
 # include <unistd.h>
 # include <stdio.h>
-typedef struct s_list
+# include <stdint.h>
+
+typedef struct	s_list
 {
-        void                    *content;
-        struct s_list   *next;
-}       t_list;
+		void			*content;
+		struct s_list	*next;
+}		t_list;
 int		ft_atoi(const char *nptr);
 int		ft_isalpha(int n);
 int		ft_isdigit(int n);

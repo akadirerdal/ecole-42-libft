@@ -13,7 +13,7 @@
 
 int	ft_isalnum(int n)
 {
-	if ( n >= 65 && n <= ft_isdigit(n))
+	if (ft_isalpha(n) || ft_isdigit(n))
 	{
 		return (1);
 	}
