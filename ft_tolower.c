@@ -10,11 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_tolower(int n)
+int	ft_tolower(int c)
 {
-	if (n >= 'A' && n <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
-		return (n + 32);
+		return (c + 32);
 	}
-	return (n);
+	return (c);
 }

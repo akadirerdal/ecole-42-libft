@@ -9,29 +9,30 @@
 /*   Updated: 2026/01/26 14:24:04 by aberdal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	size_t		i;
-	size_t		j;
-	char	*h;
-	char	*n;
+	size_t	i;
+	size_t	j;
+	char	*b;
+	char	*l;
 
-	h = (char *)haystack;
-	n = (char *)needle;
+	b = (char *)big;
+	l = (char *)little;
 	i = 0;
 	j = 0;
-	if (n[j] == '\0')
+	if (l[j] == '\0')
 	{
-		return (&h[i]);
+		return (&b[i]);
 	}
-	while (h[i] && len > i)
+	while (b[i] && len > i)
 	{
-		while (h[i + j] == n[j] && n[j] && i + j < len)
+		while (b[i + j] == l[j] && l[j] && i + j < len)
 		{
-			if (n[j + 1] == '\0')
-				return (&h[i]);
+			if (l[j + 1] == '\0')
+				return (&b[i]);
 			j++;
 		}
 		j = 0;

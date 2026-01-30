@@ -40,9 +40,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-int main ()
-{
-	char dest[] = "lolokofil";
-	char *s = ft_memmove(dest,dest+2,6);
-	printf("%s\n",s);
-}
