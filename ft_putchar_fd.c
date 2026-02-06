@@ -9,7 +9,8 @@
 /*   Updated: 2026/01/21 06:00:43 by aberdal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
+#include <unistd.h>
 
 void	ft_putchar_fd(char c, int fd)
 {

@@ -9,6 +9,7 @@
 /*   Updated: 2026/01/21 04:53:38 by aberdal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))

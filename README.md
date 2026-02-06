@@ -24,7 +24,8 @@ Bu işlem sonucunda proje kök dizininde `libft.a` dosyası oluşturulur.
 
 ### Derleme
 Kütüphaneyi derlemek için:
-make
+
+-make
 
 Bu komut çalıştırıldığında, proje kök dizininde `libft.a` dosyası oluşturulur.
 

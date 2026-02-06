@@ -9,7 +9,8 @@
 /*   Updated: 2026-01-19 15:51:30 by aberdal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
+#include <stdlib.h>
 
 static int	count_len(long n)
 {
